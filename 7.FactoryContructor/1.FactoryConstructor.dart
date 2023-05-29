@@ -39,6 +39,6 @@ void main(List<String> args) {
       Person.fromwhichperson(typename: "student", name: "Ali", fee: 2000);
   trainerA.getDetails();
   studentA.getDetails();
-print(trainerA);
-print(studentA);
+  print(trainerA);
+  print(studentA);
 }
