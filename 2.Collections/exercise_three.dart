@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main(List<String> args) {
   final Map<String, Map<String, int>> scorecard = {
     "science": {"amir": 40, "fazal": 50, "ali": 70},
