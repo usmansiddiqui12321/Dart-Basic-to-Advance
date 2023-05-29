@@ -1,4 +1,4 @@
-import '../functions/functionAsFirstClassObject.dart';
+import '../4.functions/3.functionAsFirstClassObject.dart';
 
 Future<void> fetchUserProfile() {
   return Future.delayed(

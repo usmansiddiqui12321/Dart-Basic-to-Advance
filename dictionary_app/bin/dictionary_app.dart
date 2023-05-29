@@ -1,7 +1,4 @@
 import 'dart:io';
-
-import 'package:dictionary_app/dictionary_app.dart' as dictionary_app;
-
 import 'service/dart_services.dart';
 
 // sary API fetching Files alag rahengy
