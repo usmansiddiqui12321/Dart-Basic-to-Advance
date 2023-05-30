@@ -2,10 +2,10 @@ class Person {
   String? id;
   String? name;
   Person({required this.name, required this.id});
-  //Yahan Required 2 chezen hn name or id 
-  //tw jo jo isko extend kry ga 
-  //usy Super lga kr isi ko extend krna pryga 
-  
+  //Yahan Required 2 chezen hn name or id
+  //tw jo jo isko extend kry ga
+  //usy Super lga kr isi ko extend krna pryga
+
   greet() {
     print('Hello $name');
   }

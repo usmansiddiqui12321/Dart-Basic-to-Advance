@@ -13,8 +13,8 @@ class Student extends Person {
       : super(id: id, name: name);
 
   int fee;
-@override
- greet() {
+  @override
+  greet() {
     print('Hello $name , your Student id is $id and Your Fee is $fee');
   }
 }
@@ -24,16 +24,15 @@ class Teacher extends Student {
       : super(id: id, name: name, fee: fee);
 
   int salary;
-@override
-
-greet() {
+  @override
+  greet() {
     print('Hello $name , your Student id is $id and Your salary is $salary');
   }
 }
 
 void main(List<String> args) {
-Person person = Person(name: "ALi", id: "500");
-person.greet();
+  Person person = Person(name: "ALi", id: "500");
+  person.greet();
   Student student =
       Student(id: "4", name: "Muhammad Usman Siddiqui", fee: 1000);
   student.greet();
