@@ -1,5 +1,5 @@
 
-//Polymorphism
+//Polymorphism == Method Override
 class Person {
   String? id;
   String? name;
