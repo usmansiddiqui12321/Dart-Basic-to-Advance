@@ -1,4 +1,5 @@
 //kisi bhi class ka blueprint hota h
+//Encapsulation == Interfaces
 class Add {
   double a = 0, b = 0;
   double add() {
