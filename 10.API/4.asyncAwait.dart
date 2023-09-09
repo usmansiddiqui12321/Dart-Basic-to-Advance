@@ -23,8 +23,10 @@ void main(List<String> args) async {
   //         .then((value) => print(value))
   //         .catchError((onError) => print(onError))
   //         .whenComplete(
-  //             () => print("Both Future Functions completed"))); //messy code
-  //Much More Clean way
+  //             () => print("Both Future Functions completed"))); //! messy code
+  
+  
+  //* Much More Clean way
   try {
     final username = await fetchUserName();
     print("The name of user is ${username['name']}");
