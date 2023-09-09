@@ -5,7 +5,7 @@ class Car {
   // void printmsg(){
   //   print("Hi i am from Car Class");
   // }
-  void inceaseCarPrice(int value) {
+  void increaseCarPrice(int value) {
     price += value;
   }
 
@@ -36,7 +36,7 @@ void main(List<String> args) {
   print("my car color : " + mycar.Color.toString());
   print("Second car color : " + SecondCar.Color.toString());
 
-  mycar.inceaseCarPrice(5000);
+  mycar.increaseCarPrice(5000);
   print(mycar.price);
   print(SecondCar.price);
   mycar.printCarColor();

@@ -4,7 +4,7 @@ void main(List<String> args) {
   final getmsg = (String name) {
     return "Hello ${name}";
   };
-  //One more Anonymous Function which is accepting above Anony function
+  //One more Anonymous Function which is accepting above Anonymous function
   final printmsg = (String Function(String) greetings, String name) {
     String messageRecieved = greetings(name);
     print(messageRecieved);

@@ -1,4 +1,4 @@
-//kisi bhi class ka blueprint hota h
+//* Blue Print of a Class
 //Encapsulation == Interfaces
 class Add {
   double a = 0, b = 0;
@@ -25,7 +25,7 @@ abstract class Multiply {
 }
 
 class Arithmetic implements Add, Subtract, Multiply, Divide {
-  //implements means apko sab kch define krna hoga
+  //implements means That You have to define everything in that class 
   //mtlb sab kch override hogya
   double a, b;
   Arithmetic({required this.a, required this.b});
